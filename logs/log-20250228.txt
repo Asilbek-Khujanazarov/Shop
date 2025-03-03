@@ -1,0 +1,108 @@
+2025-02-28 11:07:18.370 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-28 11:07:20.558 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-28 11:07:20.564 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-28 11:07:20.573 +05:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-28 11:07:20.620 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-28 11:07:20.623 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-28 11:07:24.373 +05:00 [INF] Now listening on: http://localhost:5004
+2025-02-28 11:07:24.377 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-28 11:07:24.379 +05:00 [INF] Hosting environment: Development
+2025-02-28 11:07:24.381 +05:00 [INF] Content root path: D:\E-commerse\ECommerceAPI
+2025-02-28 11:07:24.562 +05:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[Location], [o].[OrderDate], [o].[PaymentStatus], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[OrderDate] < DATEADD(day, CAST(-2.0E0 AS int), GETUTCDATE()) AND [o].[PaymentStatus] <> N'Paid'
+2025-02-28 11:07:24.712 +05:00 [INF] Executed DbCommand (190ms) [Parameters=[@__oneDayAgo_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[CreatedAt], [c].[Price], [c].[ProductId], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CreatedAt] < @__oneDayAgo_0
+2025-02-28 11:07:24.916 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [Id] = @p0;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [Id] = @p1;
+2025-02-28 11:07:27.787 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2025-02-28 11:07:27.973 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 188.1312ms
+2025-02-28 11:07:28.001 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - null null
+2025-02-28 11:07:28.006 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.css - null null
+2025-02-28 11:07:28.014 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - null null
+2025-02-28 11:07:28.014 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - null null
+2025-02-28 11:07:28.014 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.js - null null
+2025-02-28 11:07:28.019 +05:00 [INF] The file /index.css was not modified
+2025-02-28 11:07:28.020 +05:00 [INF] The file /swagger-ui.css was not modified
+2025-02-28 11:07:28.029 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - 304 null text/css 27.8502ms
+2025-02-28 11:07:28.021 +05:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-02-28 11:07:28.026 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.js - 200 null application/javascript;charset=utf-8 10.9979ms
+2025-02-28 11:07:28.020 +05:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-02-28 11:07:28.034 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.css - 304 null text/css 28.2189ms
+2025-02-28 11:07:28.039 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 24.9067ms
+2025-02-28 11:07:28.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - 304 null text/javascript 31.6224ms
+2025-02-28 11:07:28.407 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2025-02-28 11:07:28.452 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - null null
+2025-02-28 11:07:28.456 +05:00 [INF] The file /favicon-32x32.png was not modified
+2025-02-28 11:07:28.457 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - 304 null image/png 4.8534ms
+2025-02-28 11:07:28.615 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 208.0505ms
+2025-02-28 11:07:36.508 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Categories - null null
+2025-02-28 11:07:36.522 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-28 11:07:38.666 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 11:07:38.686 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-28 11:07:39.112 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-28 11:07:39.159 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 11:07:39.188 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 490.4066ms
+2025-02-28 11:07:39.194 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 11:07:39.201 +05:00 [INF] HTTP GET /api/Categories responded 200 in 2680.6492 ms
+2025-02-28 11:07:39.212 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Categories - 200 null application/json; charset=utf-8 2704.0255ms
+2025-02-28 11:54:58.468 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Categories - null null
+2025-02-28 11:54:58.474 +05:00 [INF] CORS policy execution successful.
+2025-02-28 11:54:58.478 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 11:54:58.481 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-28 11:54:58.520 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-28 11:54:58.523 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 11:54:58.525 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 40.4497ms
+2025-02-28 11:54:58.526 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 11:54:58.528 +05:00 [INF] HTTP GET /api/Categories responded 200 in 51.6429 ms
+2025-02-28 11:54:58.530 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Categories - 200 null application/json; charset=utf-8 61.496ms
+2025-02-28 12:03:57.334 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Categories - null null
+2025-02-28 12:03:57.344 +05:00 [INF] CORS policy execution successful.
+2025-02-28 12:03:57.351 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 12:03:57.355 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-28 12:03:57.371 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-28 12:03:57.379 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 12:03:57.383 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 22.0157ms
+2025-02-28 12:03:57.385 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 12:03:57.388 +05:00 [INF] HTTP GET /api/Categories responded 200 in 41.4687 ms
+2025-02-28 12:03:57.392 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Categories - 200 null application/json; charset=utf-8 57.8133ms
+2025-02-28 12:04:12.432 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Categories - null null
+2025-02-28 12:04:12.441 +05:00 [INF] CORS policy execution successful.
+2025-02-28 12:04:12.444 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 12:04:12.448 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-28 12:04:12.484 +05:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-28 12:04:12.490 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 12:04:12.492 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 38.5702ms
+2025-02-28 12:04:12.494 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 12:04:12.495 +05:00 [INF] HTTP GET /api/Categories responded 200 in 51.0990 ms
+2025-02-28 12:04:12.496 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Categories - 200 null application/json; charset=utf-8 64.7071ms
+2025-02-28 12:04:34.197 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Categories - null null
+2025-02-28 12:04:34.202 +05:00 [INF] CORS policy execution successful.
+2025-02-28 12:04:34.207 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 12:04:34.208 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-28 12:04:34.217 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-28 12:04:34.220 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 12:04:34.223 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 10.839ms
+2025-02-28 12:04:34.225 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-28 12:04:34.227 +05:00 [INF] HTTP GET /api/Categories responded 200 in 20.2451 ms
+2025-02-28 12:04:34.229 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Categories - 200 null application/json; charset=utf-8 31.7729ms
+2025-02-28 13:48:41.343 +05:00 [INF] Application is shutting down...

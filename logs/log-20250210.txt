@@ -1,0 +1,43 @@
+2025-02-10 15:27:13.664 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:27:13.792 +05:00 [INF] Now listening on: http://localhost:5004
+2025-02-10 15:27:13.796 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:27:13.797 +05:00 [INF] Hosting environment: Development
+2025-02-10 15:27:13.800 +05:00 [INF] Content root path: D:\E-commerse\ECommerceAPI
+2025-02-10 15:27:31.377 +05:00 [INF] Application is shutting down...
+2025-02-10 15:27:39.706 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-10 15:27:39.801 +05:00 [INF] Now listening on: http://localhost:5004
+2025-02-10 15:27:39.805 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-10 15:27:39.806 +05:00 [INF] Hosting environment: Development
+2025-02-10 15:27:39.806 +05:00 [INF] Content root path: D:\E-commerse\ECommerceAPI
+2025-02-10 15:27:49.349 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - null null
+2025-02-10 15:27:49.400 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-10 15:27:50.812 +05:00 [INF] HTTP GET / responded 404 in 1413.1843 ms
+2025-02-10 15:27:50.835 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - 404 0 null 1486.658ms
+2025-02-10 15:27:50.899 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/, Response status code: 404
+2025-02-10 15:28:13.457 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2025-02-10 15:28:13.515 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 57.9049ms
+2025-02-10 15:28:13.879 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.js - null null
+2025-02-10 15:28:13.882 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.js - 200 null application/javascript;charset=utf-8 3.1083ms
+2025-02-10 15:28:15.320 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2025-02-10 15:28:15.487 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 166.2713ms
+2025-02-10 15:29:24.576 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/Categories - null null
+2025-02-10 15:29:24.636 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-10 15:29:24.679 +05:00 [INF] Route matched with {action = "GetCategories", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.CategoryDTO]]] GetCategories() on controller ECommerceAPI.Controllers.CategoriesController (ECommerceAPI).
+2025-02-10 15:29:25.778 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:29:25.780 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:29:25.782 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-10 15:29:30.163 +05:00 [INF] Executed DbCommand (631ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Description], [c].[Name]
+FROM [Categories] AS [c]
+2025-02-10 15:29:30.197 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.CategoryDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-10 15:29:30.216 +05:00 [INF] Executed action ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI) in 5530.8681ms
+2025-02-10 15:29:30.219 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.CategoriesController.GetCategories (ECommerceAPI)'
+2025-02-10 15:29:30.221 +05:00 [INF] HTTP GET /api/Categories responded 200 in 5587.8706 ms
+2025-02-10 15:29:30.229 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/Categories - 200 null application/json; charset=utf-8 5652.822ms
+2025-02-10 15:29:37.420 +05:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5004/api/Categories/1 - null null
+2025-02-10 15:29:37.487 +05:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-02-10 15:29:37.495 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-02-10 15:29:37.496 +05:00 [INF] HTTP DELETE /api/Categories/1 responded 401 in 71.4700 ms
+2025-02-10 15:29:37.503 +05:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5004/api/Categories/1 - 401 0 null 83.032ms
+2025-02-10 15:31:29.486 +05:00 [INF] Application is shutting down...

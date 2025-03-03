@@ -1,0 +1,19 @@
+2025-03-03 22:50:50.095 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-03 22:50:51.059 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-03 22:50:51.062 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-03 22:50:51.065 +05:00 [WRN] No store type was specified for the decimal property 'Subtotal' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-03 22:50:51.067 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-03 22:50:51.069 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'CartItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-03-03 22:50:52.969 +05:00 [INF] Now listening on: http://localhost:5004
+2025-03-03 22:50:52.973 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-03 22:50:52.974 +05:00 [INF] Hosting environment: Development
+2025-03-03 22:50:52.978 +05:00 [INF] Content root path: D:\E-commerse\ECommerceAPI
+2025-03-03 22:50:53.133 +05:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[Location], [o].[OrderDate], [o].[PaymentStatus], [o].[TotalAmount], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[OrderDate] < DATEADD(day, CAST(-2.0E0 AS int), GETUTCDATE()) AND [o].[PaymentStatus] <> N'Paid'
+2025-03-03 22:50:53.223 +05:00 [INF] Executed DbCommand (126ms) [Parameters=[@__oneDayAgo_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CartId], [c].[CreatedAt], [c].[Price], [c].[ProductId], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CreatedAt] < @__oneDayAgo_0
+2025-03-03 22:53:38.935 +05:00 [INF] Application is shutting down...

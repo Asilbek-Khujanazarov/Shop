@@ -1,0 +1,534 @@
+2024-12-24 09:25:09.461 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-24 09:25:09.608 +05:00 [INF] Now listening on: http://localhost:5004
+2024-12-24 09:25:09.612 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 09:25:09.614 +05:00 [INF] Hosting environment: Development
+2024-12-24 09:25:09.615 +05:00 [INF] Content root path: C:\Users\asilb\Desktop\E-commerse\EcommerceApi
+2024-12-24 09:25:36.338 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - null null
+2024-12-24 09:25:36.407 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-24 09:25:36.450 +05:00 [INF] HTTP GET / responded 404 in 45.5592 ms
+2024-12-24 09:25:36.471 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - 404 0 null 135.7084ms
+2024-12-24 09:25:36.486 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/, Response status code: 404
+2024-12-24 09:25:40.255 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - null null
+2024-12-24 09:25:40.260 +05:00 [INF] HTTP GET / responded 404 in 1.7537 ms
+2024-12-24 09:25:40.264 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - 404 0 null 9.6598ms
+2024-12-24 09:25:40.273 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/, Response status code: 404
+2024-12-24 09:25:51.543 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger - null null
+2024-12-24 09:25:51.550 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger - 301 0 null 7.0207ms
+2024-12-24 09:25:51.592 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-12-24 09:25:51.652 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 59.8512ms
+2024-12-24 09:25:51.722 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.css - null null
+2024-12-24 09:25:51.722 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - null null
+2024-12-24 09:25:51.722 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - null null
+2024-12-24 09:25:51.723 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.js - null null
+2024-12-24 09:25:51.723 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-24 09:25:51.736 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.js - 200 null application/javascript;charset=utf-8 12.563ms
+2024-12-24 09:25:51.743 +05:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-12-24 09:25:51.758 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.css - 200 202 text/css 36.4055ms
+2024-12-24 09:25:51.750 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-24 09:25:51.750 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-24 09:25:51.769 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - 200 152035 text/css 47.306ms
+2024-12-24 09:25:51.770 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - 200 230007 text/javascript 46.3458ms
+2024-12-24 09:25:51.771 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-12-24 09:25:51.783 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - 200 1426050 text/javascript 60.2849ms
+2024-12-24 09:25:53.324 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-12-24 09:25:53.442 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - null null
+2024-12-24 09:25:53.453 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-24 09:25:53.464 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/favicon-32x32.png - 200 628 image/png 21.7324ms
+2024-12-24 09:25:53.512 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 188.489ms
+2024-12-24 09:26:38.137 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v2/ProductsV - null null
+2024-12-24 09:26:38.192 +05:00 [INF] Executing endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 09:26:38.228 +05:00 [INF] Route matched with {action = "GetProducts", controller = "ProductsV"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GetProducts() on controller ProductsV2Controller (ECommerceAPI).
+2024-12-24 09:26:38.240 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-24 09:26:38.254 +05:00 [INF] Executed action ProductsV2Controller.GetProducts (ECommerceAPI) in 18.8958ms
+2024-12-24 09:26:38.256 +05:00 [INF] Executed endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 09:26:38.257 +05:00 [INF] HTTP GET /api/v2/ProductsV responded 200 in 68.8591 ms
+2024-12-24 09:26:38.259 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v2/ProductsV - 200 null text/plain; charset=utf-8 121.8804ms
+2024-12-24 09:26:44.757 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v1/ProductsV - null null
+2024-12-24 09:26:44.770 +05:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '1'. Candidate actions: ProductsV2Controller.GetProducts (ECommerceAPI)
+2024-12-24 09:26:44.778 +05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:26:44.783 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-12-24 09:26:44.795 +05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:26:44.797 +05:00 [INF] HTTP GET /api/v1/ProductsV responded 400 in 19.2574 ms
+2024-12-24 09:26:44.801 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v1/ProductsV - 400 null application/json; charset=utf-8 43.8654ms
+2024-12-24 09:27:47.491 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v2/Products - null null
+2024-12-24 09:27:47.496 +05:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '2'. Candidate actions: AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)
+2024-12-24 09:27:47.499 +05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:27:47.502 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-12-24 09:27:47.505 +05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:27:47.508 +05:00 [INF] HTTP GET /api/v2/Products responded 400 in 9.4439 ms
+2024-12-24 09:27:47.512 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v2/Products - 400 null application/json; charset=utf-8 20.8082ms
+2024-12-24 09:27:55.415 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v1/Products - null null
+2024-12-24 09:27:55.419 +05:00 [INF] Executing endpoint 'AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2024-12-24 09:27:55.433 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.ProductDTO]]] GetProducts() on controller AtirAPI.Controllers.ProductsController (ECommerceAPI).
+2024-12-24 09:27:55.985 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-12-24 09:27:55.988 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-12-24 09:27:55.990 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-12-24 09:27:56.533 +05:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Stock], [c].[Id], [c].[Description], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2024-12-24 09:27:56.620 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.ProductDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 09:27:56.630 +05:00 [INF] Executed action AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI) in 1193.5671ms
+2024-12-24 09:27:56.635 +05:00 [INF] Executed endpoint 'AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2024-12-24 09:27:56.637 +05:00 [INF] HTTP GET /api/v1/Products responded 200 in 1217.4801 ms
+2024-12-24 09:27:56.645 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v1/Products - 200 null application/json; charset=utf-8 1229.3263ms
+2024-12-24 09:28:40.033 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v2/Products - null null
+2024-12-24 09:28:40.037 +05:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '2'. Candidate actions: AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)
+2024-12-24 09:28:40.038 +05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:28:40.039 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-12-24 09:28:40.042 +05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:28:40.092 +05:00 [INF] HTTP GET /api/v2/Products responded 400 in 54.0420 ms
+2024-12-24 09:28:40.095 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v2/Products - 400 null application/json; charset=utf-8 61.5092ms
+2024-12-24 09:28:50.328 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v1/ProductsV - null null
+2024-12-24 09:28:50.330 +05:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '1'. Candidate actions: ProductsV2Controller.GetProducts (ECommerceAPI)
+2024-12-24 09:28:50.332 +05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:28:50.333 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-12-24 09:28:50.335 +05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 09:28:50.337 +05:00 [INF] HTTP GET /api/v1/ProductsV responded 400 in 5.4007 ms
+2024-12-24 09:28:50.389 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v1/ProductsV - 400 null application/json; charset=utf-8 60.6355ms
+2024-12-24 09:29:26.713 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v2/ProductsV - null null
+2024-12-24 09:29:26.717 +05:00 [INF] Executing endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 09:29:26.718 +05:00 [INF] Route matched with {action = "GetProducts", controller = "ProductsV"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GetProducts() on controller ProductsV2Controller (ECommerceAPI).
+2024-12-24 09:29:26.766 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-24 09:29:26.768 +05:00 [INF] Executed action ProductsV2Controller.GetProducts (ECommerceAPI) in 46.821ms
+2024-12-24 09:29:26.769 +05:00 [INF] Executed endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 09:29:26.770 +05:00 [INF] HTTP GET /api/v2/ProductsV responded 200 in 52.6787 ms
+2024-12-24 09:29:26.774 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v2/ProductsV - 200 null text/plain; charset=utf-8 61.0233ms
+2024-12-24 09:30:07.058 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v1/Products - null null
+2024-12-24 09:30:07.061 +05:00 [INF] Executing endpoint 'AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2024-12-24 09:30:07.064 +05:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AtirAPI.DTOs.ProductDTO]]] GetProducts() on controller AtirAPI.Controllers.ProductsController (ECommerceAPI).
+2024-12-24 09:30:07.100 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CategoryId], [p].[Description], [p].[ImageUrl], [p].[Name], [p].[Price], [p].[Stock], [c].[Id], [c].[Description], [c].[Name]
+FROM [Products] AS [p]
+INNER JOIN [Categories] AS [c] ON [p].[CategoryId] = [c].[Id]
+2024-12-24 09:30:07.103 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AtirAPI.DTOs.ProductDTO, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 09:30:07.107 +05:00 [INF] Executed action AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI) in 41.2691ms
+2024-12-24 09:30:07.109 +05:00 [INF] Executed endpoint 'AtirAPI.Controllers.ProductsController.GetProducts (ECommerceAPI)'
+2024-12-24 09:30:07.109 +05:00 [INF] HTTP GET /api/v1/Products responded 200 in 48.5110 ms
+2024-12-24 09:30:07.111 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v1/Products - 200 null application/json; charset=utf-8 52.9539ms
+2024-12-24 09:30:27.976 +05:00 [INF] Application is shutting down...
+2024-12-24 10:00:54.271 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-24 10:00:54.530 +05:00 [INF] Now listening on: http://localhost:5004
+2024-12-24 10:00:54.537 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 10:00:54.540 +05:00 [INF] Hosting environment: Development
+2024-12-24 10:00:54.542 +05:00 [INF] Content root path: C:\Users\asilb\Desktop\E-commerse\EcommerceApi
+2024-12-24 10:00:58.578 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-12-24 10:00:58.614 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: Bearer
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.AddSecurityDefinition(SwaggerGenOptions swaggerGenOptions, String name, OpenApiSecurityScheme securityScheme)
+   at Program.<>c.<<Main>$>b__0_4(SwaggerGenOptions options) in C:\Users\asilb\Desktop\E-commerse\EcommerceApi\Program.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_3(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method2(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-24 10:00:58.710 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 500 null text/html; charset=utf-8 135.0897ms
+2024-12-24 10:00:59.578 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - null null
+2024-12-24 10:00:59.584 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: Bearer
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.AddSecurityDefinition(SwaggerGenOptions swaggerGenOptions, String name, OpenApiSecurityScheme securityScheme)
+   at Program.<>c.<<Main>$>b__0_4(SwaggerGenOptions options) in C:\Users\asilb\Desktop\E-commerse\EcommerceApi\Program.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_3(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method2(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-24 10:00:59.617 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - 500 null text/plain; charset=utf-8 39.9896ms
+2024-12-24 10:01:06.551 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-12-24 10:01:06.555 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: Bearer
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.AddSecurityDefinition(SwaggerGenOptions swaggerGenOptions, String name, OpenApiSecurityScheme securityScheme)
+   at Program.<>c.<<Main>$>b__0_4(SwaggerGenOptions options) in C:\Users\asilb\Desktop\E-commerse\EcommerceApi\Program.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_3(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method2(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-24 10:01:06.628 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 500 null text/html; charset=utf-8 77.0145ms
+2024-12-24 10:01:07.094 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - null null
+2024-12-24 10:01:07.096 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: Bearer
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.AddSecurityDefinition(SwaggerGenOptions swaggerGenOptions, String name, OpenApiSecurityScheme securityScheme)
+   at Program.<>c.<<Main>$>b__0_4(SwaggerGenOptions options) in C:\Users\asilb\Desktop\E-commerse\EcommerceApi\Program.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_3(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method2(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-24 10:01:07.131 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - 500 null text/plain; charset=utf-8 36.9382ms
+2024-12-24 10:01:25.139 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-12-24 10:01:25.143 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: Bearer
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.AddSecurityDefinition(SwaggerGenOptions swaggerGenOptions, String name, OpenApiSecurityScheme securityScheme)
+   at Program.<>c.<<Main>$>b__0_4(SwaggerGenOptions options) in C:\Users\asilb\Desktop\E-commerse\EcommerceApi\Program.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_3(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method2(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-24 10:01:25.174 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 500 null text/html; charset=utf-8 35.6959ms
+2024-12-24 10:01:26.958 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - null null
+2024-12-24 10:01:26.964 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: Bearer
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.AddSecurityDefinition(SwaggerGenOptions swaggerGenOptions, String name, OpenApiSecurityScheme securityScheme)
+   at Program.<>c.<<Main>$>b__0_4(SwaggerGenOptions options) in C:\Users\asilb\Desktop\E-commerse\EcommerceApi\Program.cs:line 104
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at InvokeStub_ConfigureSwaggerGeneratorOptions..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_3(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method2(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-24 10:01:26.989 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - 500 null text/plain; charset=utf-8 30.8682ms
+2024-12-24 10:02:10.767 +05:00 [INF] Application is shutting down...
+2024-12-24 10:02:16.547 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-24 10:02:16.723 +05:00 [INF] Now listening on: http://localhost:5004
+2024-12-24 10:02:16.727 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 10:02:16.730 +05:00 [INF] Hosting environment: Development
+2024-12-24 10:02:16.731 +05:00 [INF] Content root path: C:\Users\asilb\Desktop\E-commerse\EcommerceApi
+2024-12-24 10:02:46.199 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - null null
+2024-12-24 10:02:46.233 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-24 10:02:46.250 +05:00 [INF] HTTP GET / responded 404 in 18.9867 ms
+2024-12-24 10:02:46.261 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - 404 0 null 64.0662ms
+2024-12-24 10:02:46.270 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/, Response status code: 404
+2024-12-24 10:02:56.330 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-12-24 10:02:56.383 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 52.9699ms
+2024-12-24 10:02:56.415 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.js - null null
+2024-12-24 10:02:56.423 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.js - 200 null application/javascript;charset=utf-8 8.4412ms
+2024-12-24 10:02:56.847 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-12-24 10:02:57.057 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 209.4609ms
+2024-12-24 21:37:13.779 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-24 21:37:13.960 +05:00 [INF] Now listening on: http://localhost:5004
+2024-12-24 21:37:13.964 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 21:37:13.966 +05:00 [INF] Hosting environment: Development
+2024-12-24 21:37:13.968 +05:00 [INF] Content root path: C:\Users\asilb\Desktop\E-commerse\EcommerceApi
+2024-12-24 21:37:37.784 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/favicon.ico - null null
+2024-12-24 21:37:37.882 +05:00 [WRN] Failed to determine the https port for redirect.
+2024-12-24 21:37:37.995 +05:00 [INF] HTTP GET /favicon.ico responded 404 in 114.8648 ms
+2024-12-24 21:37:38.036 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/favicon.ico - 404 0 null 252.1503ms
+2024-12-24 21:37:38.060 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/favicon.ico, Response status code: 404
+2024-12-24 21:37:48.687 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - null null
+2024-12-24 21:37:48.695 +05:00 [INF] HTTP GET / responded 404 in 1.3405 ms
+2024-12-24 21:37:48.698 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - 404 0 null 11.5951ms
+2024-12-24 21:37:48.732 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/, Response status code: 404
+2024-12-24 21:38:09.908 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2024-12-24 21:38:10.036 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 128.1023ms
+2024-12-24 21:38:10.109 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - null null
+2024-12-24 21:38:10.112 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - null null
+2024-12-24 21:38:10.114 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.js - null null
+2024-12-24 21:38:10.114 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-24 21:38:10.117 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.css - null null
+2024-12-24 21:38:10.128 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.js - 200 null application/javascript;charset=utf-8 13.7072ms
+2024-12-24 21:38:10.131 +05:00 [INF] The file /swagger-ui-bundle.js was not modified
+2024-12-24 21:38:10.131 +05:00 [INF] The file /swagger-ui.css was not modified
+2024-12-24 21:38:10.132 +05:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-12-24 21:38:10.135 +05:00 [INF] The file /index.css was not modified
+2024-12-24 21:38:10.146 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-bundle.js - 304 null text/javascript 33.8524ms
+2024-12-24 21:38:10.147 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui.css - 304 null text/css 38.0529ms
+2024-12-24 21:38:10.155 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 34.8372ms
+2024-12-24 21:38:10.160 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.css - 304 null text/css 42.4678ms
+2024-12-24 21:38:12.331 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2024-12-24 21:38:12.664 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 332.9213ms
+2024-12-24 21:38:43.956 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/User/register - application/json 85
+2024-12-24 21:38:44.006 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.UserController.Register (ECommerceAPI)'
+2024-12-24 21:38:44.068 +05:00 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(ECommerceAPI.Models.User) on controller ECommerceAPI.Controllers.UserController (ECommerceAPI).
+2024-12-24 21:38:46.247 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-12-24 21:38:46.252 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-12-24 21:38:46.256 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-12-24 21:38:48.085 +05:00 [INF] Executed DbCommand (123ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__user_Username_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2024-12-24 21:38:49.947 +05:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([PasswordHash], [Role], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2024-12-24 21:38:50.047 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-24 21:38:50.083 +05:00 [INF] Executed action ECommerceAPI.Controllers.UserController.Register (ECommerceAPI) in 5986.8735ms
+2024-12-24 21:38:50.107 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.UserController.Register (ECommerceAPI)'
+2024-12-24 21:38:50.111 +05:00 [INF] HTTP POST /api/User/register responded 200 in 6114.5235 ms
+2024-12-24 21:38:50.134 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/User/register - 200 null text/plain; charset=utf-8 6178.6255ms
+2024-12-24 21:39:10.968 +05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5004/api/User/login - application/json 85
+2024-12-24 21:39:10.986 +05:00 [INF] Executing endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2024-12-24 21:39:11.021 +05:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(ECommerceAPI.Models.User) on controller ECommerceAPI.Controllers.UserController (ECommerceAPI).
+2024-12-24 21:39:11.268 +05:00 [INF] Executed DbCommand (38ms) [Parameters=[@__user_Username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[PasswordHash], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__user_Username_0
+2024-12-24 21:39:11.901 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-24 21:39:11.922 +05:00 [INF] Executed action ECommerceAPI.Controllers.UserController.Login (ECommerceAPI) in 894.2422ms
+2024-12-24 21:39:11.927 +05:00 [INF] Executed endpoint 'ECommerceAPI.Controllers.UserController.Login (ECommerceAPI)'
+2024-12-24 21:39:11.931 +05:00 [INF] HTTP POST /api/User/login responded 200 in 945.1476 ms
+2024-12-24 21:39:11.937 +05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5004/api/User/login - 200 null application/json; charset=utf-8 968.1708ms
+2024-12-24 21:39:52.412 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v2/ProductsV - null null
+2024-12-24 21:39:52.524 +05:00 [INF] Executing endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 21:39:52.529 +05:00 [INF] Route matched with {action = "GetProducts", controller = "ProductsV"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] GetProducts() on controller ProductsV2Controller (ECommerceAPI).
+2024-12-24 21:39:52.537 +05:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-12-24 21:39:52.541 +05:00 [INF] Executed action ProductsV2Controller.GetProducts (ECommerceAPI) in 7.34ms
+2024-12-24 21:39:52.543 +05:00 [INF] Executed endpoint 'ProductsV2Controller.GetProducts (ECommerceAPI)'
+2024-12-24 21:39:52.546 +05:00 [INF] HTTP GET /api/v2/ProductsV responded 200 in 118.2843 ms
+2024-12-24 21:39:52.552 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v2/ProductsV - 200 null text/plain; charset=utf-8 140.0544ms
+2024-12-24 21:40:03.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/api/v1/ProductsV - null null
+2024-12-24 21:40:03.508 +05:00 [INF] Multiple candidate actions were found, but none matched the requested service API version '1'. Candidate actions: ProductsV2Controller.GetProducts (ECommerceAPI)
+2024-12-24 21:40:03.581 +05:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 21:40:03.590 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]], Microsoft.AspNetCore.Mvc.Versioning, Version=5.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]'.
+2024-12-24 21:40:03.612 +05:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Http.Endpoint'
+2024-12-24 21:40:03.614 +05:00 [INF] HTTP GET /api/v1/ProductsV responded 400 in 36.0551 ms
+2024-12-24 21:40:03.620 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/api/v1/ProductsV - 400 null application/json; charset=utf-8 130.2922ms

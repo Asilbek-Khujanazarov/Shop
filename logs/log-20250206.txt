@@ -1,0 +1,53 @@
+2025-02-06 10:44:36.769 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:36.821 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:36.824 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:37.042 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:37.046 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:37.049 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:54.989 +05:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:55.024 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:44:55.028 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-02-06 10:45:00.221 +05:00 [INF] Executed DbCommand (225ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-06 10:45:01.099 +05:00 [INF] Executed DbCommand (861ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-02-06 10:45:01.985 +05:00 [INF] Executed DbCommand (881ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-02-06 10:45:02.859 +05:00 [INF] Executed DbCommand (872ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-02-06 10:45:03.450 +05:00 [INF] Executed DbCommand (573ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-02-06 10:45:03.466 +05:00 [INF] Applying migration '20250206054439_InitialCreateee'.
+2025-02-06 10:45:04.750 +05:00 [INF] Executed DbCommand (378ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250206054439_InitialCreateee', N'8.0.0');
+2025-02-06 10:45:21.195 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 10:45:21.299 +05:00 [INF] Now listening on: http://localhost:5004
+2025-02-06 10:45:21.302 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 10:45:21.303 +05:00 [INF] Hosting environment: Development
+2025-02-06 10:45:21.305 +05:00 [INF] Content root path: D:\E-commerse\ECommerceAPI
+2025-02-06 10:45:26.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - null null
+2025-02-06 10:45:26.677 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-06 10:45:28.542 +05:00 [INF] HTTP GET / responded 404 in 1866.8165 ms
+2025-02-06 10:45:28.555 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - 404 0 null 1932.0971ms
+2025-02-06 10:45:28.565 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/, Response status code: 404
+2025-02-06 10:45:32.248 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.html - null null
+2025-02-06 10:45:32.300 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.html - 200 null text/html;charset=utf-8 52.5853ms
+2025-02-06 10:45:32.683 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/index.js - null null
+2025-02-06 10:45:32.687 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/index.js - 200 null application/javascript;charset=utf-8 3.9403ms
+2025-02-06 10:45:34.513 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - null null
+2025-02-06 10:45:34.695 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 182.3735ms
+2025-02-06 10:48:07.743 +05:00 [INF] Application is shutting down...
+2025-02-06 10:48:13.732 +05:00 [INF] User profile is available. Using 'C:\Users\asilb\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 10:48:13.862 +05:00 [INF] Now listening on: http://localhost:5004
+2025-02-06 10:48:13.865 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 10:48:13.867 +05:00 [INF] Hosting environment: Development
+2025-02-06 10:48:13.868 +05:00 [INF] Content root path: D:\E-commerse\ECommerceAPI
+2025-02-06 10:48:19.107 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5004/ - null null
+2025-02-06 10:48:19.163 +05:00 [WRN] Failed to determine the https port for redirect.
+2025-02-06 10:48:19.188 +05:00 [INF] HTTP GET / responded 404 in 26.9930 ms
+2025-02-06 10:48:19.196 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5004/ - 404 0 null 89.8158ms
+2025-02-06 10:48:19.206 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5004/, Response status code: 404
+2025-02-06 10:48:28.327 +05:00 [INF] Application is shutting down...

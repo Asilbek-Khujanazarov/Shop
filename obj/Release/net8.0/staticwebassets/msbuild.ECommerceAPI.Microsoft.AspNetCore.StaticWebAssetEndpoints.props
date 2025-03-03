@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ECommerceAPI/images/0e30e10e-186b-4050-8868-953a06ffcb1e.clqmvvrz5z.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0e30e10e-186b-4050-8868-953a06ffcb1e.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"clqmvvrz5z"},{"Name":"integrity","Value":"sha256-IPsukLgYRJhxaFEpwZWZ6vXEyZenCRGjBYesE76WSKo="},{"Name":"label","Value":"_content/ECommerceAPI/images/0e30e10e-186b-4050-8868-953a06ffcb1e.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16087"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IPsukLgYRJhxaFEpwZWZ6vXEyZenCRGjBYesE76WSKo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 15:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ECommerceAPI/images/0e30e10e-186b-4050-8868-953a06ffcb1e.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0e30e10e-186b-4050-8868-953a06ffcb1e.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IPsukLgYRJhxaFEpwZWZ6vXEyZenCRGjBYesE76WSKo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16087"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IPsukLgYRJhxaFEpwZWZ6vXEyZenCRGjBYesE76WSKo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Feb 2025 15:57:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
