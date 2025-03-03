@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="../CSS/product.css">
+</head>
+
+<body>
+    <!-- New Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Admin Panel</div>
+            <div class="nav-links">
+                <a href="./allOrders.html">Buyurtmalar</a>
+                <a href="./category.html">Kategoriyalar</a>
+                <a href="./addAdmin.html">Admin Qo'shish</a>
+                <a href="#" id="logout">Chiqish</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="products-section">
+            <h2>Create New Product</h2>
+            <form id="productForm">
+                <div class="form-group">
+                    <label for="productName">Product Name:</label>
+                    <input type="text" id="productName" name="productName" required>
+                </div>
+                <div class="form-group">
+                    <label for="productDescription">Description:</label>
+                    <textarea id="productDescription" name="productDescription" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price:</label>
+                    <input type="number" id="price" name="price" min="0" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="stock">Stock:</label>
+                    <input type="number" id="stock" name="stock" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="categoryId">Category:</label>
+                    <select id="categoryId" name="categoryId" required>
+                        <option value="">Select a category</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="productImage">Product Image:</label>
+                    <input type="file" id="productImage" name="productImage" accept="image/*" required>
+                </div>
+                <button type="submit">Create Product</button>
+            </form>
+            <div id="productMessage" class="message"></div>
+        </div>
+
+        <div class="products-list">
+            <h2>All Products</h2>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search products by name..." oninput="searchProducts()">
+            </div>
+            <div id="productsContainer"></div>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h3>Edit Product</h3>
+            <form id="editForm">
+                <div class="form-group">
+                    <label for="editName">Name:</label>
+                    <input type="text" id="editName" name="editName" required>
+                </div>
+                <div class="form-group">
+                    <label for="editDescription">Description:</label>
+                    <textarea id="editDescription" name="editDescription" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="editPrice">Price:</label>
+                    <input type="number" id="editPrice" name="editPrice" min="0" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="editStock">Stock:</label>
+                    <input type="number" id="editStock" name="editStock" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="editCategoryId">Category:</label>
+                    <select id="editCategoryId" name="editCategoryId" required>
+                        <option value="">Select a category</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="editImage">New Image (optional):</label>
+                    <input type="file" id="editImage" name="editImage" accept="image/*">
+                </div>
+                <button type="submit">Save Changes</button>
+                <button type="button" class="close-btn" onclick="closeModal()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../JS/product.js"></script>
+</body>
+
+</html>

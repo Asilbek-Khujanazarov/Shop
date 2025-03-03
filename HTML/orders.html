@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyurtmalar</title>
+    <script src="https://js.stripe.com/v3/"></script>
+    <link rel="stylesheet" href="../CSS/orders.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Onlayn Magazin</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Bosh Sahifa</a></li>
+                    <li><a href="./card.html">Saqlanlanlar</a></li>
+                    <li><a href="./login.html">Krish</a></li>
+                    <li><a href="#">Aloqa</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="hero">
+
+        </section>
+
+
+        <div class="container-two">
+            <h2>Foydalanuvchi Buyurtmalari</h2>
+            <div id="orders"></div>
+            <div id="paymentMessage" class="message"></div>
+        </div>
+    
+        <!-- Payment Modal -->
+        <div id="paymentModal" class="modal">
+            <div class="modal-content">
+                <h3>Karta Ma'lumotlarini Kiriting</h3>
+                <div id="payment-element"></div>
+                <button id="submitPayment" class="pay-btn">To‘lov qilish</button>
+                <button type="button" class="close-btn" onclick="closePaymentModal()">Yopish</button>
+            </div>
+        </div>
+    
+    </main>
+    
+    <script src="../JS/orders.js"></script>
+</body>
+</html>

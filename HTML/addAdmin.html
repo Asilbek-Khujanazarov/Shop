@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change User Role</title>
+    <link rel="stylesheet" href="../CSS/addAdmin.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Admin Panel</div>
+            <div class="nav-links">
+                <a href="./allOrders.html">Buyurtmalar</a>
+                <a href="./category.html">Kategoriyalar</a>
+                <a href="./product.html">Maxsulotlar</a>
+                <a href="#" id="logout">Chiqish</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Foydalanuvchi Rolini O'zgartirish</h1>
+        <form id="roleChangeForm">
+            <div class="form-group">
+                <label for="phoneNumber">Telefon Raqami:</label>
+                <div class="phone-input">
+                    <span class="phone-prefix">+998</span>
+                    <input type="text" id="phoneNumber" name="phoneNumber" maxlength="9" placeholder="901234567" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="newRole">Yangi Rol:</label>
+                <select id="newRole" name="newRole" required>
+                    <option value="">Rolni tanlang</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Customer">Customer</option>
+                </select>
+            </div>
+            <button type="submit">O'zgartirish</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="../JS/addAdmin.js"></script>
+</body>
+</html>

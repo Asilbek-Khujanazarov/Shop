@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcha Buyurtmalar</title>
+    <link rel="stylesheet" href="../CSS/allOrders.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Admin Panel</div>
+            <div class="nav-links">
+                <a href="./category.html">Kategoriyalar</a>
+                <a href="./product.html">Maxsulotlar</a>
+                <a href="./addAdmin.html">Admin Qo'shish</a>
+                <a href="#" id="logout">Chiqish</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Barcha Buyurtmalar</h2>
+        <div class="toggle-container">
+            <span class="toggle-label" id="toggleLabel">To'langan Buyurtmalar</span>
+            <label class="switch">
+                <input type="checkbox" id="toggleSwitch" onchange="toggleOrders()" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div id="ordersContainer"></div>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="../JS/allOrders.js"></script>
+
+</body>
+
+</html>

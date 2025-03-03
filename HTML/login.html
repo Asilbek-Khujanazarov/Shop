@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisobga kirish</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Hisobga kirish</h2>
+        <div class="phone-container">
+            <div class="prefix">+998</div>
+            <input type="text" id="phoneNumber" class="phone-input" placeholder="99 292 99 99" maxlength="12"
+                oninput="formatPhoneNumber(this)">
+        </div>
+        <input type="password" id="password" placeholder="Parol">
+        <button onclick="login()">Kirish</button>
+        <p class="message" id="errorMessage"></p>
+        <div class="registertek">
+            <a href="./rigester.html">Ro'yxatdan o'tish</a>
+        </div>
+    </div>
+
+    <script src="../JS/login.js"></script>
+</body>
+</html>

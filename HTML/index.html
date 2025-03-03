@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onlayn Magazin</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Onlayn Magazin</h1>
+            <nav>
+                <ul>
+                    <li><a href="./login.html">Kirish</a></li>
+                    <li><a href="./card.html">Mahsulotlarim</a></li>
+                    <li><a href="./orders.html">Buyurtmalarim</a></li>
+                    <li><a href="#">Aloqa</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="hero">
+            <div class="container">
+                <form class="search-form" onsubmit="performSearch(event); return false;">
+                    <input type="text" id="searchInput" placeholder="Mahsulotni qidirish...">
+                    <button type="submit">Qidirish</button>
+                </form>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+
+        <section class="categories">
+            <div class="container">
+                <div class="category-list" id="categoryList">
+                    <!-- Kategoriyalar bu yerda dinamik qo'shiladi -->
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="product-list" id="productList">
+                    <!-- Mahsulotlar bu yerda dinamik qo'shiladi -->
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- 
+    <footer>
+        <div class="container">
+            <p>© 2025 Onlayn Magazin</p>
+        </div>
+    </footer> -->
+
+    <script src="../JS/index.js"></script>
+</body>
+
+</html>

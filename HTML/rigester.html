@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro'yxatdan O'tish</title>
+    <link rel="stylesheet" href="../CSS/rigester.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ro'yxatdan O'tish</h2>
+        <input type="text" id="firstName" placeholder="Ismingiz">
+        <input type="text" id="lastName" placeholder="Familiyangiz">
+        <input type="email" id="email" placeholder="Email">
+        
+        <div class="phone-container">
+            <div class="prefix">+998</div>
+            <input type="text" id="phoneNumber" class="phone-input" placeholder="99 292 99 99" maxlength="12" oninput="formatPhoneNumber(this)">
+        </div>
+
+        <input type="text" id="address" placeholder="Manzil">
+        <input type="password" id="password" placeholder="Parol">
+        <button onclick="registerUser()" class="regButton">Ro'yxatdan O'tish</button>
+        <p class="message" id="message"></p>
+        <div class="login">
+            <a href="./login.html">Kirish</a>
+        </div>
+    </div>
+    <script src="../JS/rigester.js"></script>
+</body>
+</html>

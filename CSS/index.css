@@ -1,0 +1,255 @@
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d5e5f6;
+    /* Eng yengil kulrang orqa fon */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .logo {
+    float: left;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+    /* To'yingan ko'k rang */
+}
+
+.hero {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #355473;
+    /* Qorong'i ko'k */
+    color: #ecf0f1;
+    height: 50px;
+}
+
+.search-form input {
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    width: 30%;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.products {
+    padding: 50px 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background: #ffffff;
+    border-radius: 10px;
+    /* margin: 10px;
+    padding: 20px; */
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product h5 {
+    color: #2c3e50;
+    margin: 10px 0 10px 10px;
+    display: flex;
+}
+
+.product p {
+    color: #3498db;
+    font-weight: bold;
+    display: flex;
+}
+
+
+
+.product-details {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.quantity-section {
+    margin-top: 20px;
+}
+
+.quantity-section input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#addToCart {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#addToCart:hover {
+    background-color: #2980b9;
+}
+
+
+
+ /* Oldingi stillar saqlanadi */
+ .categories {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.category-list {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.category-list::-webkit-scrollbar {
+    display: none;
+}
+
+.category-list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.category-item {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex-shrink: 0;
+}
+
+.category-item:hover {
+    background-color: #0056b3;
+}
+
+.category-item.active {
+    background-color: #28a745;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    overflow: hidden;
+    /* Rasim chegaradan chiqmasligi uchun */
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 200px;
+    /* Rasimning kengligi mahsulot kengligiga teng */
+    height: 200px;
+    /* Rasimning balandligini belgilash */
+    object-fit: cover;
+    /* Rasimni kesib, moslashtirish */
+    border-radius: 5px 5px 0 0;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+}

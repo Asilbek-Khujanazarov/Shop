@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+
+}
+.container-two {
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+.order {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.order h3 {
+    margin: 0 0 10px;
+    color: #007bff;
+}
+.order p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+}
+.order-items {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.order-items ul {
+    list-style: none;
+    padding: 0;
+}
+.order-items li {
+    background: white;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.pay-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+.pay-button:hover {
+    background-color: #218838;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.modal-content h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+.close-btn {
+    background: #e74c3c;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.pay-btn {
+    background: #2ae15b;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#payment-element {
+    margin-bottom: 20px;
+}
+.message {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+}
+.success {
+    background: #e8f7ec;
+    color: #27ae60;
+    border: 1px solid #2ecc71;
+}
+.error {
+    background: #fceaea;
+    color: #c0392b;
+    border: 1px solid #e74c3c;
+}
+
+

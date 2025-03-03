@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+     <link rel="stylesheet" href="../CSS/category.css">
+</head>
+<body>
+    <!-- New Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Admin Panel</div>
+            <div class="nav-links">
+                <a href="./allOrders.html">Buyurtmalar</a>
+                <a href="./product.html">Maxsulotlar</a>
+                <a href="./addAdmin.html">Admin Qo'shish</a>
+                <a href="#" id="logout">Chiqish</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Create New Category</h2>
+        <form id="categoryForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <button type="submit">Create Category</button>
+        </form>
+        <div id="message" class="message"></div>
+
+        <div class="categories-list">
+            <h2>All Categories</h2>
+            <div id="categoriesContainer"></div>
+        </div>
+    </div>
+<script src="../JS/category.js"></script>
+</body>
+</html>
